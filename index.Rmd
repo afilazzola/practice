@@ -1,0 +1,21 @@
+---
+title: "index"
+author: "Alex Filazzola"
+date: "November 27, 2018"
+output: html_document
+---
+
+### Testing out the Rmarkdown workspace
+
+My first R chunk
+
+```{r echo=FALSE}
+x <- 2 + 2 
+x
+```
+
+```{r fig.width=6, fig.height=8, message=FALSE, warning=FALSE}
+library(tidyverse)
+plot(cars$speed,cars$dist)
+```
+
